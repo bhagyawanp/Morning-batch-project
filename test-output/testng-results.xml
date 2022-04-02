@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-01T09:31:20 IST" name="Default suite" finished-at="2022-04-01T09:31:37 IST" duration-ms="16485">
+    <groups>
+    </groups>
+    <test started-at="2022-04-01T09:31:20 IST" name="Default test" finished-at="2022-04-01T09:31:37 IST" duration-ms="16485">
+      <class name="testcases.VerifyLogin">
+        <test-method is-config="true" signature="urlLAunch()[pri:0, instance:testcases.VerifyLogin@f0da945]" started-at="2022-04-01T09:31:20 IST" name="urlLAunch" finished-at="2022-04-01T09:31:30 IST" duration-ms="9917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLAunch -->
+        <test-method signature="enterCredentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLogin@f0da945]" started-at="2022-04-01T09:31:30 IST" name="enterCredentials" data-provider="demo" finished-at="2022-04-01T09:31:30 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secure123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method is-config="true" signature="urlLAunch()[pri:0, instance:testcases.VerifyLogin@f0da945]" started-at="2022-04-01T09:31:30 IST" name="urlLAunch" finished-at="2022-04-01T09:31:36 IST" duration-ms="5593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLAunch -->
+        <test-method signature="enterCredentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLogin@f0da945]" started-at="2022-04-01T09:31:36 IST" name="enterCredentials" data-provider="demo" finished-at="2022-04-01T09:31:37 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secure456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+      </class> <!-- testcases.VerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
